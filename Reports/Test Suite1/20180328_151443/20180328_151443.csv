@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite1,Chrome 65.0.3325.181,,2018-03-28 15:14:47,2018-03-28 15:15:02,15.045s,PASSED
+,,,,,,
+Test Cases/Test 1 by Jiwon,Chrome 65.0.3325.181,,2018-03-28 15:14:47,2018-03-28 15:15:02,14.433s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-03-28 15:14:48,2018-03-28 15:14:56,8.154s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-03-28 15:14:56,2018-03-28 15:14:59,2.593s,PASSED
+click,Chrome 65.0.3325.181,,2018-03-28 15:14:59,2018-03-28 15:15:00,1.104s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-03-28 15:15:00,2018-03-28 15:15:02,1.822s,PASSED
