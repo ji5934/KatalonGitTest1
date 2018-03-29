@@ -22,9 +22,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://demoaut.katalon.com/')
+WebUI.navigateToUrl('http://demoaut.katalon.com/profile.php#login')
 
-WebUI.click(findTestObject('a_Make Appointment'))
+WebUI.click(findTestObject('span_demo_username_label'))
+
+WebUI.setText(findTestObject('input_username'), '')
+
+WebUI.click(findTestObject('span_demo_password_label'))
+
+WebUI.setText(findTestObject('input_password'), '')
+
+WebUI.click(findTestObject('button_Login (1)'))
+
+WebUI.setText(findTestObject('input_username'), 'John Doe')
+
+WebUI.setText(findTestObject('input_password'), 'ThisIsNotAPassword')
+
+WebUI.click(findTestObject('button_Login (1)'))
 
 WebUI.closeBrowser()
 
